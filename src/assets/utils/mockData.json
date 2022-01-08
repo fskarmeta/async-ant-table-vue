@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "number": 1123123,
+      "name": "Procedure 1",
+      "state": "Accepted"
+    },
+    {
+      "number": 123131,
+      "name": "Procedure 2",
+      "state": "Submited"
+    },
+    {
+      "number": 4444323,
+      "name": "Procedure 3",
+      "state": "Denied"
+    },
+    {
+      "number": 4123156,
+      "name": "Procedure 4",
+      "state": "Pending"
+    },
+    {
+      "number": 6432324,
+      "name": "Procedure 5",
+      "state": "Accepted"
+    },
+    {
+      "number": 4213123,
+      "name": "Procedure 6",
+      "state": "Denied"
+    }
+  ]
+}
