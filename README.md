@@ -1,4 +1,6 @@
 # Asynchronous row expansion for Ant Table and Ant Collapse, as well as synchronous communication between both components.
+Sample Github Page: https://fskarmeta.github.io/async-ant-table-vue/
+![ant-collapse-expand-async](https://user-images.githubusercontent.com/69222982/148650238-c2b4dace-7913-4a6f-86a7-5d53fffaed4e.gif)
 
 ## This is an example component in which we synchronize an Ant Table with an Ant Collapse through the active Keys prop API. The Table component is used for desktop resolutions and the Collapse component for mobile. But perhaps the most useful is the asynchronous behavior of expanding a row of the Table or expanding the collapse.
 
