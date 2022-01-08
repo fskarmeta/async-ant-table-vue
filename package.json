@@ -1,7 +1,14 @@
 {
   "name": "ant-collapse-table",
+  "author": "Fabian Skarmeta (https://bafian.com)",
+  "description": "Ant Design Vue Table that expands asynchronously and becomes a collapse in mobile viewport",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fskarmeta/async-ant-table-vue.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
