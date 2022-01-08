@@ -56,6 +56,7 @@ export default {
           number: item.number,
           name: item.name,
           state: item.state,
+          // key has to start with 1 and not 0
           key: (index + 1).toString(),
         }));
         this.results = true;
@@ -68,7 +69,6 @@ export default {
   methods: {
     async tableExpand({ record, expanded }) {
       if (expanded) return (this.activeKeys = []);
-      console.log(record);
       const { key, name, number, state } = record;
       if (this.checkIfProcedureIsAlreadyLoaded(key)) return;
       this.fetchProcedure(key, name, number, state);
@@ -92,10 +92,13 @@ export default {
       this.loading = true;
       // Here you can fetch data for each individual row of the table
       try {
+        // Example error
+        if (number === 4213123) throw new Error();
         this.$notification["success"]({
           message: "Fetching data with number " + number,
           duration: 2,
         });
+        // Mock Fetch
         setTimeout(() => {
           this.currentProcedure = {
             key,
@@ -118,7 +121,7 @@ export default {
         duration: 4,
       });
       this.activeKeys = [];
-      this.currentProcedure = [];
+      this.currentProcedure = {};
       this.loading = false;
     },
   },
