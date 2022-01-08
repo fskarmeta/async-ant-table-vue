@@ -47,34 +47,6 @@ export default {
 }
 
 ::v-deep .ant-collapse-content-box {
-  border-radius: 2px;
   background-color: #fff;
-}
-
-::v-deep .ant-collapse-item > .ant-collapse-header .anticon {
-  transform: translateY(-50%) rotate(90deg);
-  transition: transform 0.5s ease-in-out;
-  color: #4d4d4d;
-  font-size: 16px;
-}
-
-::v-deep .ant-collapse-item-active > .ant-collapse-header .anticon {
-  transform: translateY(-50%) rotate(180deg);
-  transition: transform 0.5s ease-in-out;
-}
-
-::v-deep .ant-collapse-header {
-  display: flex;
-  align-items: center;
-  height: 52px;
-  border-bottom: 1px solid #d9d9d9;
-  padding-block: 24px;
-  padding-inline: 24px;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-::v-deep .ant-collapse-item {
-  border-bottom: 0;
 }
 </style>
